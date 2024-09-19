@@ -46,7 +46,7 @@ restrictions = [
 ]
 
 # Define the number of generations as a separate variable
-generations = 5
+generations = 998
 
 # Generate and display the result of the nth valid generation
 result = generate_circle_with_generations(participants, restrictions, generations)
