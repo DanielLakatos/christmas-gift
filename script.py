@@ -30,12 +30,19 @@ def generate_circle_with_generations(participants, restrictions, generations):
 # List of participants and restrictions
 participants = ["Csaba", "Marcsi", "Netti", "Gergo", "Eni", "Judit", "Dani"]
 restrictions = [
-    ("Csaba", "Marcsi"),
     ("Marcsi", "Csaba"),
+    ("Csaba", "Marcsi"),
     ("Netti", "Gergo"),
     ("Gergo", "Netti"),
     ("Judit", "Dani"),
     ("Dani", "Judit"),
+    ("Marcsi", "Gergo"),
+    ("Netti", "Marcsi"),
+    ("Csaba", "Judit"),
+    ("Gergo", "Csaba"),
+    ("Judit", "Netti"),
+    ("Eni", "Dani"),
+    ("Dani", "Eni"),
 ]
 
 # Define the number of generations as a separate variable
